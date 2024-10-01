@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DTM Fan Hub</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-logo">
+            <a href="#">DTM Fan Hub</a>
+        </div>
+        <div class="nav-menu" id="navMenu">
+            <a href="#home">Home</a>
+            <a href="#races">Races</a>
+            <a href="#news">News</a>
+            <a href="#drivers">Drivers & Teams</a>
+            <a href="#forum">Forum</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#shop">Shop</a>
+        </div>
+        <div class="nav-toggle" id="navToggle">
+            &#9776;
+        </div>
+    </nav>
+
+    <!-- Sliding Sponsors Carousel -->
+    <div class="sponsors-carousel">
+    <!--    <div class="sponsor"><img src="./assets/img/bwt-logo.png" alt="Sponsor 1"></div>  -->
+        <div class="sponsor"><img src="assets/img/bwt-logo.png" alt="Sponsor 1"></div>
+        <div class="sponsor"><img src="assets/img/adac-logo.png" alt="Sponsor 2"></div>
+        <div class="sponsor"><img src="assets/img/ig-logo.png" alt="Sponsor 3"></div>
+        <div class="sponsor"><img src="assets/img/pirelli-logo.png" alt="Sponsor 3"></div>
+        <div class="sponsor"><img src="assets/img/schaeffler-logo.png" alt="Sponsor 3"></div>
+        <div class="sponsor"><img src="assets/img/dekra-logo.png" alt="Sponsor 3"></div>
+    </div>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Welcome to DTM Fan Hub</h1>
+            <p>Catch all the latest races, highlights, and events.</p>
+            <a href="#upcoming" class="btn">Upcoming Events</a>
+        </div>
+    </header>
+
+    <!-- Recent Races & Highlights Section -->
+    <section class="recent-races" id="races">
+        <h2>Recent Races & Highlights</h2>
+        <div class="race-grid">
+            <!-- Race Cards -->
+            <div class="race-card">
+                <img src="assets/img/Burgring.jpeg" alt="Race 1">
+                <div class="event-card">
+                    <h3>07 Red Bull Ring</h3>
+                        <p>27.- 29. SEP, 2024</p>
+                    <div id="countdown-timer"></div>
+                </div>
+            </div>
+        </div>
+        <div class="race-grid">
+            <!-- Race Cards -->
+            <div class="race-card">
+                <img src="assets/img/Burgring.jpeg" alt="Race 1">
+                <div class="event-card">
+                    <h3>Hockenheimring</h3>
+                        <p>18. - 20. OCT, 2024</p>
+                    <div id="countdown-timer"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+        <!-- Footer Section -->
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="quick-links">
+                        <h5>Quick Links</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#" class="text-white">About Us</a></li>
+                            <li><a href="#" class="text-white">Privacy Policy</a></li>
+                            <li><a href="#" class="text-white">Contact</a></li>
+                            <li><a href="#" class="text-white">Terms & Conditions</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="social-media">
+                        <h5>Follow Us</h5>
+                        <a href="#" class="text-white mx-2"><i class="bi bi-facebook fs-4"></i></a>
+                        <a href="#" class="text-white mx-2"><i class="bi bi-twitter fs-4"></i></a>
+                        <a href="#" class="text-white mx-2"><i class="bi bi-instagram fs-4"></i></a>
+                        <a href="#" class="text-white mx-2"><i class="bi bi-youtube fs-4"></i></a>
+                    </div>
+        
+                    <!-- Newsletter (Right) -->
+                    <div class="col-md-4 mb-3">
+                        <h5>Subscribe to Our Newsletter</h5>
+                        <form>
+                            <div class="mb-3">
+                                <input type="email" class="form-control" placeholder="Enter your email">
+                            </div>
+                            <button type="submit" class="btn btn-warning w-100">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col text-center mt-3">
+                        <p>&copy; 2024 Your Company. All rights reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        
+        <!-- Bootstrap JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>        
+
+    <script src="assets/js/timer.js"></script>
+</body>
+</html>
+
